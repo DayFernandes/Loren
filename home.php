@@ -15,9 +15,5 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>GATO DE BOTAS</h1>
-        <p></p>
-    </main>
 </body>
 </html>
