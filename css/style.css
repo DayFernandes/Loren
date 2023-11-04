@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Instrument+Serif&family=Inter&family=Josefin+Sans&family=Open+Sans&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CDCDC6;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.container{
+    margin: 10px;
+}
+
+.imagens-emp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    text-align: center;
+}
+
+.img2{
+    text-align: center;
+}
+
+.img3{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.info-emp{
+    display: flex;
+    margin: 10px;
+}
+
+.imagem-dono{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais{
+    margin: 10px;
+}
+
+.desc-dono h2{
+    padding: 10px;
+}
+
+.rede-social-emp{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rede-social-emp a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+footer{
+    background-color: #CDCDC6;
+}
