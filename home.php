@@ -8,12 +8,12 @@
 </head>
 <body>
     <header>
-        <h1>NOME DA EMPRESA</h1>
+        <h1>LOREN</h1>
         <nav class="nav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="sobrenos.php">Sobre Nós</a></li>
+                <li><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
     </header>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Instrument+Serif&family=Inter&family=Josefin+Sans&family=Open+Sans&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3da0de;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.contato {
+    max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 40px; /*tamanho da caixa*/ 
+      background-color: #f8f8f8;
+      border-radius: 10px;
+      margin-top: 5%;
+  }
+  
+  .contato h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contato p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .redes-sociais li{
+    list-style-type: none;
+    padding: 10px;
+   text-align: center;
+  }
+  
+  .redes-sociais a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+
+    font-size: 20px;
+  }
+  
+  .redes-sociais i {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .redes-sociais a:hover {
+    color: #555;
+  }
+
+  .contato input{
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.feedback-form input{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form a{
+    padding: 9px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.feedback-form a:hover {
+    background-color: #0056b3;
+}
+
+.feedback-form input:hover {
+    background-color: #0056b3;
+}
+
+.contato input [email]{
+    width: 100%;
+} 
+

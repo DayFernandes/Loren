@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Contato</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-
-        </div>
-        <nav>
+        <h1>LOREN</h1>
+        <nav class="nav">
             <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="sobrenos.php">Sobre Nós</a></li>
@@ -18,15 +18,34 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>SHREK</h1>
-        <p>Shrek é um ogro que vivia feliz e sozinho num pântano, em meio à floresta, em uma terra chamada Duloc. Repentinamente, ele vê sua solidão ameaçada quando o 
-        governante de Duloc, Lord Farquaad, decide expulsar todas as criaturas mágicas para floresta. Shrek fica muito irritado e oferece um acordo com Lord Farquaad: 
-        ele iria buscar a mulher dos sonhos de Lord Farquaad, a princesa Fiona, que vivia adormecida, aprisionada num castelo guardada por um dragão, e Farquaad tiraria
-        todas as criaturas mágicas da floresta, devolvendo o sossego de seu pântano. Shrek parte em sua missão, acompanhado por um burro falante, que se une a ele por 
-        gratidão, pois Shrek teria salvo a sua vida. Os dois conseguem libertar a princesa mas, no caminho de volta a Duloc, quando os dois começam a se conhecer melhor, 
-        acabam por se apaixonarem um pelo outro, e Shrek tenta impedi-la de se casar com Lord Farquaad. No final da disputa entre os dois, Shrek vence, se casa com a 
-        princesa.</p>
-    </main>
+    <section class="contato">
+    <form action="" method="post">
+        <h1>Entre em contato</h1>
+        <input type="email" name="email" id="email" placeholder="Email" size="78px"><br><br>
+        <div class="feedback-form">
+        <label for="">Mande uma mensagem</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <input type="submit" value="Enviar"><br><br>
+        <a href="cadastrar.php">Cadastrar</a> 
+        </div>
+    </form>
+    </section>
+    <ul class="redes-sociais">
+        <li>
+            <a href="https://www.instagram.com/seu_perfil/" target="_blank">
+                <i class="fa fa-instagram"></i> Instagram
+            </a>
+        </li>
+        <li>
+            <a href="https://api.whatsapp.com/send?phone=seu_numero_de_telefone" target="_blank">
+                <i class="fa fa-whatsapp"></i> WhatsApp
+            </a>
+        </li>
+        <li>
+            <a href="https://www.italki.com/teacher/seu_perfil" target="_blank">
+                <i class="fa fa-facebook"></i> Facebook
+            </a>
+        </li>
+    </ul>
 </body>
 </html>
