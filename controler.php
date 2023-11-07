@@ -27,9 +27,11 @@ if($botao=="CADASTRAR"){
 }else if($botao=="CONSULTAR"){
     $usuariodao->consultar();
     foreach($usuariodao->consultar() as $consult){
-        echo $consult['nomealuno'] . "<BR>";
-        echo $consult['cpfaluno'] . "<BR>";
-        echo $consult['turmaaluno'] . "<BR><BR>";
+        echo $consult['cpf_usu'] . "<BR>";
+        echo $consult['nome_usu'] . "<BR>";
+        echo $consult['email_usu'] . "<BR>;
+        echo $consult['senha_usu'] . "<BR>";
+        echo $consult['men_usu'] . "<BR>"<BR>";
     }
 }
 ?>
