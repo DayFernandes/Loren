@@ -33,5 +33,10 @@
         <p><input type="submit" name="botao" value="EXCLUIR"></p><br>
         <p><input type="submit"name="botao" value="CONSULTAR"></p><br>
     </form>
+    <footer>
+        <div class="rodape">
+            <span>&copy;Programação para Internet, 2023</span>
+        </div>
+    </footer>
 </body>
 </html>

@@ -47,5 +47,10 @@
             </a>
         </li>
     </ul>
+    <footer>
+        <div class="rodape">
+            <span>&copy;Programação para Internet, 2023</span>
+        </div>
+    </footer>
 </body>
 </html>
