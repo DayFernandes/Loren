@@ -92,6 +92,8 @@ p{
     font-size: larger;
 }
 
-footer{
+.rodape{
+    margin-top: 20px;
+    text-align: center;
     background-color: #CDCDC6;
 }

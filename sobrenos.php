@@ -41,6 +41,10 @@
         <br>ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes 
         <br>por acidente, às vezes de propósito (humor injetado e similares).</p>
 </div>
-
+<footer>
+        <div class="rodape">
+            <span>&copy;Programação para Internet, 2023</span>
+        </div>
+    </footer>
 </body>
 </html>
