@@ -15,7 +15,7 @@ $men_usu;
 
  public function setCpf($cpf_usu){
 
-    $this->$cpf_usu=$cpf_usu;
+    $this->cpf_usu=$cpf_usu;
 
  }
 

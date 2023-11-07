@@ -6,9 +6,8 @@ class usuarioDao{
       $sql = "insert into usuario (cpf_usu, nome_usu, email_usu,senha_usu, men_usu) values (?, ?, ?, ?, ?)";
       $bd = new Conexao();
       $conn = $bd->getConexao();
-      $vl = $conn->prepare ($sql);
-      $vl->bindValue(1, $usu->getCpf());
       $vl = $conn->prepare($sql);
+      $vl->bindValue(1, $usu->getCpf());
       $vl->bindValue(2, $usu->getNome());
       $vl->bindValue(3, $usu->getEmail());
       $vl->bindValue(4, $usu->getSenha ());
@@ -27,7 +26,8 @@ class usuarioDao{
         $conn = $bd->getConexao();
 
         $vl = $conn->prepare($sql);
-        $vl->bindValue(1, $usu->getMen());
+        $vl->bindValue(1, $usu->getCpf());
+        $vl->bindValue(2, $usu-> getMen());
       $result = $vl->execute();
       if($result){
           echo "Mensagem atualizada com sucesso";
