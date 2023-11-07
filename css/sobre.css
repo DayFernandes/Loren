@@ -35,3 +35,7 @@ header{
     color: black;
     font-size: larger;
 }
+.texto{
+    text-align: center;
+    margin-top: 20px;
+}
