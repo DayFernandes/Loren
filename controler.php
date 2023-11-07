@@ -19,11 +19,11 @@ $usu->setMen($men_usu);
 $usuariodao = new usuarioDao();
 
 if($botao=="CADASTRAR"){
-    $usuariodao->cadastrar($Al);
+    $usuariodao->cadastrar($usu);
 }else if($botao=="ATUALIZAR"){
-    $usuariodao->atualizar($Al);
+    $usuariodao->atualizar($usu);
 }else if($botao=="EXCLUIR"){
-    $usuariodao->apagar($Al);
+    $usuariodao->apagar($usu);
 }else if($botao=="CONSULTAR"){
     $usuariodao->consultar();
     foreach($usuariodao->consultar() as $consult){

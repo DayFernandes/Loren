@@ -14,11 +14,11 @@
 }
 
 header{
-    /*flex-direction: column;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #3da0de;
+    padding: 1%;
 }
 
 .nav ul{
@@ -36,62 +36,39 @@ header{
     font-size: larger;
 }
 
-.container{
-    margin: 10px;
+form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
 }
 
-.imagens-emp{
-    display: flex;
-    justify-content: space-between;
+label {
+    font-weight: bold;
 }
 
-.img1{
-    text-align: center;
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.img2{
-    text-align: center;
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    
 }
 
-.img3{
-    text-align: center;
-}
-
-p{
-    text-align: justify;
-    padding: 10px;
-}
-
-.info-emp{
-    display: flex;
-    margin: 10px;
-}
-
-.imagem-dono{
-    display: flex;
-    justify-content: center;
-}
-
-.redes-sociais{
-    margin: 10px;
-}
-
-.desc-dono h2{
-    padding: 10px;
-}
-
-.rede-social-emp{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.rede-social-emp a{
-    text-decoration: none;
-    color: black;
-    font-size: larger;
-}
-
-footer{
-    background-color: #CDCDC6;
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }

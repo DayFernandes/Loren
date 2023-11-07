@@ -26,7 +26,7 @@
         <label for="">Mande uma mensagem</label>
         <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
         <input type="submit" value="Enviar"><br><br>
-        <a href="cadastrar.php">Cadastrar</a> 
+        <a href="cadastro.php">Cadastrar</a> 
         </div>
     </form>
     </section>
